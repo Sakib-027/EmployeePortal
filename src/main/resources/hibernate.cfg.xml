@@ -10,8 +10,8 @@
             jdbc:mysql://localhost:3306/employee_portal
         </property>
 
-        <property name="hibernate.connection.username">root</property>
-        <property name="hibernate.connection.password">mysql@100</property>
+        <property name="hibernate.connection.username">${db.username}</property>
+        <property name="hibernate.connection.password">${db.password}</property>
 
         <!-- Hibernate dialect -->
         <property name="hibernate.dialect">
